@@ -8,48 +8,148 @@
 	background-image: url(../../assets/images/bg5.jpeg);
 	background-size: 100% 100%;
 	height: 100vh;
+	padding: 0;
 }
 
-#land-page {
+/*#land-page {
 	background-color: rgba(1, 7, 193, 0.02);
 	height: 30vh;
 	border-radius: 0;
-	padding: 0;
-}
+}*/
 
-#carousel {
-	width: 70%;
-}
-#navbar-nav a {
-	color: white;
-}
 
 .navbar img {
-	height: 75px;
-	border-radius: 10rem;
+	height: auto;
+	border-radius: 6rem;
 	padding: 0;
-	box-shadow: 0 0 2rem yellow;
+	box-shadow: 0 0 2rem #fff;
 }
 
 #nav {
-	background-color:rgba(1, 7, 193, 0.10); 
-
+	background-color:rgba(4, 18, 215, 0.60);
+	margin: 0;	
 }
 #nav button	{
-	box-shadow: 0 0 2rem yellow;
+	margin-left: 2px;
+	box-shadow: 0 0 2rem #fff;
+}
+
+.nav-item a {
+	color: white;
 }
 
 .nav-item:hover {
-	background-color: skyblue;
-	color: darkblue;
+	background-color: #0412d7;
+	border-radius: 10px 60px;
+	color: #fff;
+
 }
 
-#welc {
-	float: left;
-	display: inline-flex;
+.btn:hover {
+	background-color: #0412d7;
 }
-.full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
+
+/*end of navbar*/
+
+#land-page {
+	height: 50vh;
+	padding:0;
+}
+
+#ftext img {
+	width: 80vh;
+}
+
+#ftext h4{
+		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+		color: white;
+		letter-spacing: 3px;
+}
+
+#ftext a {
+	display: block;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size: 2.5rem;
+	color: white;
+}
+
+
+#ftext {
+	width: 100%;
+	margin: 0 auto;
+
+}
+#local {
+	border-style: dotted;
+	border-color: white;
+	border-radius: 2rem 5rem;
+	color: white;
+	padding: 5px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*end of landing page*/
+
+
+#home-landing{
+	padding:0;
+	background-color: rgba(16, 70, 177, 0.94);
+}
+
+#land {
+	background-image: url(../../assets/images/bg1.jpeg);
+	background-size: 100% 100%;
+	height: 100vh;
+	color: #fff;
+	width: 100%;
+/*	padding: 20rem;*/
+	z-index: -5;
+}
+
+#land h1 {
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size: 2.5rem;
+}
+
+.carousel-item img {
+	height: 80vh;
+	margin-top: 5px;
+
+
+
+}
+
+#carousel-home {
+/*	border:5px solid black;*/
+	width: 90%;
+	padding: 0;
+	margin-top: -35rem;
+	margin-left: 5rem;
+	margin-bottom: 3rem;
+}
+
+#imeg {
+	margin-top: 10px;
+
+}
+
+#imeg .row{
+	padding: 20px;
+	width: auto;
+	height: 100vh;
+	margin-top: 8rem;
+
+}
+/*end home landing*/
+.footer {
+	background-color: rgba(16, 70, 177, 0.50);
+	border: 1px dotted #0412d7;
+/*	position: absolute;
+	width: 100%*/
+}
+
+.footer p{
+	color: #fff;
 }
