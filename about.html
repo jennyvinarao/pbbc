@@ -27,93 +27,114 @@
 
 </head>
 <body>
-	<section id="jumbotron-about" class="jumbotron">
+  <div class="container-fluid px-0">
+      <nav id="nav" class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="assets/images/pbbc.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"  id="navbar-nav" >
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="home1.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>         
+                <li class="nav-item">
+                  <button class="btn btn-primary"><a href="contact.html">Visit Us!</a></button>
+                </li> 
+            </ul> <!-- navbar menus -->
+          </div><!-- navbar collapse -->
+        </nav><!-- end of nav -->
+	 <section id="jumbotron-about" class="jumbotron">
 		<h1 id="landing-about" class="text-center animated fadeInUp">Meet Our Team</h1>
-		
+		<a href="#mission"><img class="img-fluid d-block animated bounce" src="assets/images/icon4.png"></a>
 	</section>
-	<div class="container-fluid px-0">
-    	<nav id="nav" class="navbar navbar-expand-lg sticky-top">
-     		<a class="navbar-brand" href="index.html"><img class="d-block img-fluid" src="assets/images/logo.png"></a>
-      		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
-        	<span class="navbar-toggler-icon"></span>
-        	</button>
-        	<div class="collapse navbar-collapse"  id="navbar-nav" >
-          		<ul class="navbar-nav ml-auto">
-            		<li class="nav-item ">
-              			<a class="nav-link" href="home.html">Home</a>
-            		</li>
-            		<li class="nav-item active">
-              			<a class="nav-link" href="about.html">About</a>
-            		</li>
-            		<li class="nav-item">
-              			<a class="nav-link" href="events.html">Events</a>
-            		</li>         
-             		<li class="nav-item">
-              		<button class="btn btn-primary"><a href="contact.html">Visit Us!</a></button>
-            		</li> 
-         		</ul> <!-- navbar menus -->
-        	</div><!-- navbar collapse -->
-      	</nav><!-- end of nav -->
-      	<section id="mission" class="p-5">
-      		<div class="row">
-      			<div class="col-12 col-md-4 col-lg-4">
-      				
-      			</div><!-- empty 1 -->
-      			<div class="col-12 col-md-4 col-lg-8">
-      				<h2 class="about-tags mb-5">Our Mission</h2>
-      				<img class="img-thumbnail" src="assets/images/bg2.jpg">
-      				<p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      				<p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      				<p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
-      			</div><!--  first col -->
-      			<div class="col-12 col-md-4 col-lg-6">
-      				<h2 class="about-tags mb-5">Our Mission</h2>
-      				<img class="img-thumbnail" src="assets/images/bg2.jpg">
-      				<p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      				<p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      				<p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
-      			</div><!--  2nd col -->
-      		</div> <!-- end row1 -->
+	
+      <nav id="about-nav" class="sticky-top">
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-history-tab" data-toggle="tab" href="#nav-history" role="tab" aria-controls="nav-history" aria-selected="true">Our History</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Our Pastor</a>
+            <a class="nav-item nav-link" id="nav-min-tab" data-toggle="tab" href="#nav-min" role="tab" aria-controls="nav-min" aria-selected="false">Ministries</a>
+          </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent ">
+      <div class="tab-pane fade show active" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
+        <section id="mission" class="p-5">
+          <div class="row">
+            <div id="e-pic" class="col-12 col-md-4 col-lg-5">
+              <img class="img-fluid" src="assets/images/ep.jpg">
+            </div><!-- empty 1 -->
+            <div class="col-12 col-md-4 col-lg-7">
+              <h2 class="about-tags mb-2">Our Mission</h2>
+              <img class="img-thumbnail" src="assets/images/bg2.jpg">
+              <p class="text-justify">This site chronicles God's faithfulness to his Baptist people. We will be posting our ministries, calendar, choral resources, prayer requests, Sunday school lessons and preachings, as well as some of our favorite Christian links.
+              Visit often, we pray that you will enjoy your stay and be able to glean some things that you can use in your Christian life and ministry. <br> Surfs up!</p>
+            </div><!--  first col -->
+            <div class="col-12 col-md-4 col-lg-5">
+              <h2 class="about-tags mb-2">Our Vision</h2>
+              <img class="img-thumbnail" src="assets/images/bg2.jpg">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div><!--  2nd col -->
+          </div> <!-- end row1 -->
 
-      	</section> <!-- end mission -->
-      	<section id="vision" class="p-5">
-      		<h2 class="about-tags mb-5 text-right">Our Vision</h2>
-      		<p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      		<p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      		<p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      	</section> <!-- end vision -->
-      	<section id="team" class="p-5">
-      		<h2 class="about-tags mb-5 text-right">Our Vision</h2>
-      		<p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      		<p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      		<p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      	</section> <!-- end vision -->
+        </section> <!-- end mission -->
+      </div> <!-- history tab -->
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <section id="vision" class="p-5">
+          <h2 class="about-tags mb-5 text-right">Our Vision</h2>
+          <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section> <!-- end vision -->
+
+      <div class="tab-pane fade" id="nav-min" role="tabpanel" aria-labelledby="nav-min-tab">
+        <section id="team" class="p-5">
+          <h2 class="about-tags mb-5 text-right">Our Vision</h2>
+          <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="text-justify lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section> <!-- end vision -->
+      </div> end of Pastor's Profile
+
+      </div> end of ministries
+  </div>
 
 
+
+
+
+
+
+      	
       <footer class="footer bg-primary">
         <p class="text-center mb-0 p-1">Jenny Rose Vinarao | Tuitt Coding Bootcamp</p>
       </footer>

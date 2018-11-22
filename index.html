@@ -24,44 +24,140 @@
 
 </head>
 <body>
-	<div id="container" class="container-fluid">
+	<div id="land-con" class="container-fluid">
     <div id="land-page" class="container-fluid">
-        <div id="ftext" class="container-fluid">
-          <h1 class="text-center animated fadeInUp">You Were Called to make a difference!</h1>
-          <p class="text-center">Pilgrim Bible Baptist Chruch Online-another avenue of ministry to be able to reach the world with the gospel!</p>
-<!--           <img class="img-fluid rounded mx-auto d-block" src="assets/images/w.png"> -->
+        <div id="ftext" class="container">
+            <h1 class="text-center animated fadeInUp">You were Called to make a difference!</h1>
+            <p id="ptext" class="text-center"><strong>"Pilgrim Bible Baptist Chruch Online-another avenue of ministry to be able to reach the world with the gospel!"</strong></p>
           
-          <div  class="row">
-            <div class="col-12 col-md-6 col-lg-6 text-right ">
-<!--                 <img class="img-fluid img-rounded" src="assets/images/icon3.png"> -->
-                <span class="fas fa-calendar-alt fa-6x"></span>
+          <div id="land-row" class="row container-fluid">
+            <div id="col1" class="col-6 col-md-6 col-lg-6 text-right"  data-toggle="modal" data-target="#calendar">
+                <i class="fas fa-calendar-alt fa-6x"></i>
                 <h4>Weekly Services</h4>
-                <p>Sunday | Saturday</p>
+                <p>Sunday: 10:00 am - 12:00nn <br>02:00 pm - 3:30pm</p>
        
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
-<!--                 <img class=" img-fluid" src="assets/images/icon2.png"> -->
-                <span class="fas fa-search-location fa-6x"></span>
+            <div id="col2s" class="col-6 col-md-6 col-lg-6">
+                <i class="fas fa-search-location fa-6x" data-toggle="modal" data-target="#map"></i>
                 <h4>Location</h4>
+                <p>Camden, Dearborn St. Brookside Subdivision, Cainta Rizal</p>
             </div>
-          </div>
-        <div id="lbtn" class="container-fluid text-center">
-            <button class="btn btn-outline-primary">
-              <a href="home.html">Explore</a>
+          </div> <!-- end div row -->
+        <div id="lbtn" class="text-center">
+            <button class="btn btn-outline-primary col-md-2">
+              <a href="home1.html">Explore</a>
             </button>
-            <button class="btn btn-outline-primary">
+            <button class="btn btn-outline-primary col-md-2">
               <a href="about.html">Know Us!</a>
             </button>    
-            <button class="btn btn-outline-primary">
+            <button class="btn btn-outline-primary col-md-2">
               <a href="events.html">Gallery</a>
             </button>
-            <button class="btn btn-outline-primary">
+            <button class="btn btn-outline-primary col-md-2">
               <a href="contact.html">Talk with Us</a>
             </button>
         </div>   
         </div><!-- end of ftext -->
-    </div>    
-	</div>
+    </div><!--  end of land page -->
+    <div class="modal fade" id="map" role="dialog" aria-labelledby="mapTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <header>
+            <h5 class="modal-title" id="mapTitle"> PBBC Guide Map</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </header><!--  modal header -->
+          <div class="modal-body embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7722.240190961239!2d121.12087372323418!3d14.592231865319773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b87ee286192b%3A0x18dba76041771f2c!2sPilgrim+Bible+Baptist+Church+Brookside!5e0!3m2!1sfil!2sph!4v1542852382393" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>            
+          </div><!--  end modal content -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary">Get directions</button>
+          </div> <!-- modal footer -->
+        </div> <!-- modal content -->        
+      </div><!--  modal dialog -->    
+    </div> <!-- end of main modal Map-->
+
+
+
+
+    <div class="modal fade" id="calendar" role="dialog" aria-labelledby="calTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <header>
+            <h5 class="modal-title" id="mapTitle"> Monthly Schedule </h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </header><!--  modal header -->
+          <div class="modal-body embed-responsive embed-responsive-16by9">
+              <div class="month">      
+                <ul>
+                  <li class="prev">&#10094;</li>
+                  <li class="next">&#10095;</li>
+                  <li>
+                    August<br>
+                    <span style="font-size:18px">2017</span>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="weekdays">
+                <li>Mo</li>
+                <li>Tu</li>
+                <li>We</li>
+                <li>Th</li>
+                <li>Fr</li>
+                <li>Sa</li>
+                <li>Su</li>
+              </ul>
+
+              <ul class="days">  
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li><span class="active">10</span></li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+              </ul>
+          </div><!--  end modal content -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary">Get directions</button>
+          </div> <!-- modal footer -->
+        </div> <!-- modal content -->        
+      </div><!--  modal dialog -->    
+    </div> <!-- end of main modal Map-->
+
+
+
+	</div> <!-- end of land-con -->
 
 
 
