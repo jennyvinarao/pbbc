@@ -102,7 +102,7 @@
 .month {
     padding: 70px 25px;
     width: 100%;
-    background: #1abc9c;
+    background: rgba(6, 12, 188, 0.85);
     text-align: center;
 }
 
@@ -159,7 +159,7 @@
 
 .days li .active {
     padding: 5px;
-    background: #1abc9c;
+    background: rgba(6, 12, 188, 0.85);
     color: white !important
 }
 /*end of calendar*/
@@ -167,27 +167,34 @@
 /*end of landing page*/
 
 /*home landing page*/
-#home-landing{
-	padding:0;
-	height: 90vh;
-}
 
-#land {
-	background-image: url(../../assets/images/bg.jpeg);
-	background-size: 100% 100%;
-	color: #fff;
-	width: 100%;
-	height: 100%;
-}
-
-#land h1 {
-	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-	font-size: 2.5em;
-}
 #homep1 {
 	background-image: url(../../assets/images/bg.jpeg);
 	background-size: 100% 100%;
 	height: 100%;
+	width: 100%;
+	padding: 0;
+}
+#home-row {
+	padding-top: 6em;
+	padding-bottom: 5em;
+	margin: 0;
+	width: 100vw;
+
+}
+#home-alert {
+	width: 500px;
+}
+
+#home-vid {
+	width: 500px;
+	height: 360px;
+	margin:0 auto;
+}
+
+#home-vid video {
+	width: 540px;
+	height: 400px;
 }
 
 #imgf {
@@ -201,46 +208,27 @@
 	text-overflow:ellipsis;
 
 }
-#bcktp {
-
-}
 
 #imgf .row{
 	padding: 2em;
 }
-.carousel-inner{
-	margin-right: 60em;
-}
-
-
-/*.carousel-item img {
-	height: 400px;
-	margin-top: 2.3em;
-}
-
-#carousel-home {
-	width: 90%;
-	margin: 0 auto;
-	padding: 0;
-	margin-top: -28em;
-	max-width: 90%;
-}
-
-
-#wlphoto {
-	height: 100px;
-}
-
-
-
 /*end home landing*/
 .footer {
 	background-color: rgba(16, 70, 177, 0.50);
-	border: 1px dotted #0412d7;
+	height: 80px;
 }
 
 .footer p{
 	color: #fff;
+}
+
+.f-icon {
+	width: 30px;
+	height: 30px;
+	padding: 1px;
+	background-color: blue;
+	border-radius: 20px;
+
 }
 /*end fo footer*/
 
@@ -280,15 +268,14 @@
 	color: #141414;
 }
 
-/*end of about us*/
-
 #head-gall {
-	background-color: #141414;
+	background-color: rgba(5, 11, 168, 0.55);
 	color: #f2f2f2;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 	letter-spacing: 0.5em;
 	max-width: 100%;
 	padding: 15px;
+	border-radius: 50px 150px;
 }
 #head-con {
 	padding: 0;
@@ -307,9 +294,72 @@
 #e-pic{
 	height: 50%;
 }
-
-
 /*end of about*/
+
+/*start of event styling*/
+#jumbotron-events {
+	background-image: url(../../assets/images/bg6.jpeg);
+	background-size: 100% 100%;
+	height: 100%;
+	border-radius: 0;
+}
+
+#events-row {
+	height: 50%;
+}
+#slide1 {
+	padding-top: 55px;
+	height: 500px;
+}
+
+#slide1 img {
+	height: 400px;
+	width: 700px;
+	padding-top: 3em;
+	padding-left: 1em;
+}
+
+#head-con {
+	height: 80vh;
+}
+/*end of events styling*/
+
+
+/*contact us*/
+#contact-page {
+	background-color:rgba(12, 0, 117, 1);
+	color: white;
+	height: 100vh;
+	padding: 0;
+}
+
+#s-icon {
+	width: 90px;
+	height: 90px;
+	border: 1px solid darkblue;
+	padding: 5px;
+	border-radius: 20px;
+}
+.reach {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 5vw;
+}
+#home-row {
+	padding: 0;
+}
+#email-form {
+	padding: 15px;
+	border-top: 0;
+	border-bottom: 0;
+	border-left:10px;
+	border-right: 10px;
+	border-color: white;
+	border-style: double;
+}
+
+
+/*end of contact us*/
+
 
 /*mobile view*/
 @media only screen and (max-width: 450px) {
@@ -332,6 +382,14 @@
 	}
 /*home-page*/
 
+	video {
+		width: 100%;
+		height: auto;
+	}
+	#homep1 {
+		width: 100vw;
+	}
+
 	#nav img {
 		width: 50vw;
 	}
@@ -346,12 +404,47 @@
 		margin: 0;
 	}
 
-}
+	.footer {
+		width: auto;
+	}
+	
+	#home-alert {
+		display: none;
+	}
+/*about page*/
+	#jumbotron-about h1{
+		font-size: 15vw;
+	}
 
+	#contact-page {
+	height: 100%;
+	}
+}
+	/*contact us*/
+	#email-form {
+	padding: 15px;
+	border-right: 0;
+	border-left: 0;
+	border-bottom:10px;
+	border-top: : 10px;
+	border-color: white;
+	border-style: double;
+}
 
 /*tablet view*/
 @media only screen and (min-width: 451px) and (max-width: 768px){
 	/*home-page*/
+	#nav {
+		position: normal;
+	}
+	video {
+		width: 100%;
+		height: auto;
+	}
+	#home-row {
+		width: 100%;
+		height: 100%;
+	}
 
 	#nav img {
 		width: 40vw;
@@ -367,5 +460,16 @@
 		padding: 0;
 		margin: 0;
 	}
-
+	#contact-page {
+	height: 100%;
+	}
+	#email-form {
+	padding: 15px;
+	border-top: 0;
+	border-bottom: 0;
+	border-left:10px;
+	border-right: 10px;
+	border-color: white;
+	border-style: double;
+	}
 }

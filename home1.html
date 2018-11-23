@@ -25,70 +25,8 @@
 </head>
 <body>
   <section id="homep1" class="container-fluid">
-    <div id="home-vid" class="carousel slide carousel-fade" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="home-vid" data-slide="0" class="active"></li>
-        <li data-target="home-vid" data-slide="1" ></li>
-        <li data-target="home-vid" data-slide="2" ></li>
-      </ol> <!-- carousel indicators -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="view">
-            <video class="video-fluid" width="820" height="640" controls   autoplay loop muted>
-              <source src="assets/images/ft.mp4" type="video/mp4">
-            </video> <!-- first video -->
-            <div class="mask rgba-indigo-light"></div>
-          </div><!-- mask color -->
-          <div class="carousel-caption">
-            <div class="animated faceInUp">
-              <h3 class="h3-responsive"> Light Mask</h3>
-              <p>First Text</p>              
-            </div> <!-- animated caption -->
-          </div><!--  1st slide caption -->          
-        </div> <!-- first slide -->  
-        <div class="carousel-item">
-          <div class="view">
-            <video width="820" height="640" controls  class="video-fluid" autoplay loop muted>
-              <source src="assets/images/ft1.mp4" type="video/mp4">
-            </video> <!-- first video -->
-            <div class="mask rgba-purple-slight"></div>
-          </div><!-- mask color -->
-          <div class="carousel-caption">
-            <div class="animated faceInUp">
-              <h3 class="h3-responsive"> 2nd Mask</h3>
-              <p>2ndText</p>              
-            </div> <!-- animated caption -->
-          </div><!-- 2nd slide caption -->          
-        </div> <!-- 2nd slide -->    
-        <div class="carousel-item">
-          <div class="view">
-            <video width="820" height="640" controls  class="video-fluid " autoplay loop muted>
-              <source src="assets/images/ft2.mp4" type="video/mp4">
-            </video> <!-- first video -->
-            <div class="mask rgba-black-strong"></div>
-          </div><!-- mask color -->
-          <div class="carousel-caption">
-            <div class="animated faceInUp">
-              <h3 class="h3-responsive"> 3rd Mask</h3>
-              <p>3rd Text</p>              
-            </div> <!-- animated caption -->
-          </div><!-- 3rd slide caption -->          
-        </div> <!-- 3rd slide --> 
-      </div> <!-- carousel slides -->
-      <!-- controls -->
-      <a class="carousel-control-prev" href="#home-vid" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#home-vid" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-    </div> <!-- end of home vid carousel wrapper-->
-  </section> <!-- home page 1st page -->
-    <div class="container-fluid px-0  ">
-    <nav id="nav" class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid px-0">
+    <nav id="nav" class="navbar navbar-expand-lg fixed-top">
       <a class="navbar-brand" href="index.html"><img class="img-fluid" src="assets/images/pbbc.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
         <span class="navbar-toggler-icon"></span>
@@ -110,8 +48,85 @@
           </ul> <!-- navbar menus -->
         
         </div><!-- navbar collapse -->
-      </nav>
+      </nav> <!-- end of nav bar -->
+    <div id="home-row" class="container-fluid px-5">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6">       
+          <div id="home-vid" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="home-vid" data-slide="0" class="active"></li>
+              <li data-target="home-vid" data-slide="1" ></li>
+              <li data-target="home-vid" data-slide="2" ></li>
+            </ol> <!-- carousel indicators -->
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+          <div class="view">
+            <video class="video-fluid" autoplay loop muted>
+              <source src="assets/images/ft.mp4" type="video/mp4">
+            </video> <!-- first video -->
+            <div class="mask rgba-indigo-light"></div>
+          </div><!-- mask color -->       
+        </div> <!-- first slide -->  
+        <div class="carousel-item">
+          <div class="view">
+            <video class="video-fluid" autoplay loop muted>
+              <source src="assets/images/ft1.mp4" type="video/mp4">
+            </video> <!-- first video -->
+            <div class="mask rgba-purple-slight"></div>
+          </div><!-- mask color -->
+          <div class="carousel-caption">
+            <div class="animated faceInUp">
+              <h3 class="h3-responsive"> Soul Winning</h3>
+              <p>Sharing the Gospel to others</p>              
+            </div> <!-- animated caption -->
+          </div><!-- 2nd slide caption -->          
+        </div> <!-- 2nd slide -->    
+        <div class="carousel-item">
+          <div class="view">
+            <video class="video-fluid " autoplay loop muted>
+              <source src="assets/images/ft2.mp4" type="video/mp4">
+            </video> <!-- first video -->
+            <div class="mask rgba-black-strong"></div>
+          </div><!-- mask color -->
+          <div class="carousel-caption">
+            <div class="animated faceInUp">
+              <h3 class="h3-responsive"> 3rd Mask</h3>
+              <p>3rd Text</p>              
+            </div> <!-- animated caption -->
+          </div><!-- 3rd slide caption -->          
+        </div> <!-- 3rd slide --> 
+      </div> <!-- carousel slides -->
+      <!-- controls -->
+      <a class="carousel-control-prev" href="#home-vid" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#home-vid" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      </div> <!-- end of home vid carousel wrapper-->
+    <div id="home-alert" class="alert alert-primary pt-2" role="alert">
+        <h4 class="alert-heading">Weekly Services</h4>
+        <p>Schedules:<br>Thursday (Prayer Meeting): 7:00 PM to 9:00 PM <br> Saturday (Prayer Warrior): 7:00 AM to 9:00 AM <br> Sunday Services: <br> Sunday School:10:00 AM to 11:00 AM <br> Morning Service: 11:00 AM to 12:00 PM <br> Afternoon Services:1:00 PM to 3:00 PM </p>
+        <hr>
+        <p class="mb-0">Whenever you need to, don't hesitate to <a href="contact.html">Reach Us!</a>.</p>
+    </div>
 
+    </div><!--carousel video-->
+        <div class="col-12 col-md-6 cl-lg-6">
+          <div class="card my-3" data-toggle="modal" data-target="#modal-3">
+            <img class="card-img-top img-fluid p-2" src="assets/images/sl2.jpg">
+            <h3 class="card-title text-center"> Welcome to PBBC Website</h3>
+            <p class="card-body text-justify">Glory to God! Our website is finally up and running - another avenue of ministry to be able to reach the world with the gospel! This site chronicles God's faithfulness to his Baptist people in Kasibulan. We will be posting our ministries, calendar, choral resources, prayer requests, Sunday school lessons and preachings, as well as some of our favorite Christian links. <br><br> Visit often, we pray that you will enjoy your stay and be able to glean some things that you can use in your Christian life and ministry.
+            <br><br>    
+            Surfs up!</p>
+          </div>
+        </div> <!-- 2nd half -->
+      </div> <!-- end row -->
+      </div><!-- end of year 2007 -->  
+    </div> <!-- end home-landing -->
+</section> <!-- home page 1st page -->
       <div id="imgf" class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-4 col-lg-4">
@@ -217,8 +232,13 @@
         </div><!--  end of row -->
     </div> <!-- end of imgf -->
 
-      <footer class="footer bg-primary fixed-bottom">
-        <p class="text-center mb-0 p-1">Jenny Rose Vinarao | Tuitt Coding Bootcamp</p>
+      <footer class="footer bg-primary  fixed-bottom">
+        <p class="text-center mb-0 p-1">PBBC - Brookside Online &copy; 2018</p>
+        <div class="c-icon text-center">
+        <a href="https://facebook.com" target="_blank"><img class="f-icon img-fluid" src="assets/images/fb.png"></a>
+        <a href="https://gmail.com" target="_blank"><img class="f-icon img-fluid" src="assets/images/gmail.png"></a>
+        <a href="https://instagram.com" target="_blank"><img class="f-icon img-fluid" src="assets/images/ig.png"></a>
+        </div>
       </footer>
 
     </div><!--  home landing -->
