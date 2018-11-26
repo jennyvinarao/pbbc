@@ -429,6 +429,19 @@
 	#jumbotron-events {
 	height: 100%;
 	}
+	#home-vid {
+	padding-top: 2em;
+	width: 260px;
+	height: 200px;
+	margin:0 auto;
+	}
+
+#home-vid video {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	width: 260px;
+	height: 200px;
+	}
 }
 
 /*tablet view*/
@@ -444,6 +457,9 @@
 	#home-row {
 		width: 100%;
 		height: 100%;
+	}
+	.row {
+		padding:1em;
 	}
 
 	#nav img {
