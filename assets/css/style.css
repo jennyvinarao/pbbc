@@ -201,6 +201,7 @@
 	background-image: url(../../assets/images/bg1.jpeg);
 	background-size: 100% 100%;
 	height: 100%;
+	padding-bottom: 5em;
 }
 .home-cl {
 	height: 100%;
@@ -258,7 +259,7 @@
 }
 #mission {
 	height: 100%;
-	background-color: #141414;
+	background-color: rgba(0, 11, 138, 1);
 	color: #f2f2f2;
 }
 
@@ -278,7 +279,7 @@
 	border-radius: 50px 150px;
 }
 #head-con {
-	padding-top: 10em;
+	padding-top: 5em;
 	height: 100vh;
 }
 
@@ -293,11 +294,19 @@
 
 /*start of event styling*/
 #jumbotron-events {
-	background-image: url(../../assets/images/bg6.jpeg);
-	background-size: 100% 100%;
+/*	background-image: url(../../assets/images/bg6.jpeg);
+	background-size: 100% 100%;*/
+	background-color: rgba(0, 11, 128, 1);
 	height: 100%;
 	border-radius: 0;
 	margin: 0;
+}
+#landing-events {
+	color: white;
+}
+
+#gal-pills a{
+	color: white;
 }
 
 #events-row {
@@ -311,7 +320,7 @@
 #slide1 img {
 	height: 400px;
 	width: 700px;
-	padding-top: 3em;
+	padding-top: 2em;
 	padding-left: 1em;
 }
 
@@ -443,12 +452,31 @@
 	height: 200px;
 	}
 
-#calendar {
+
+#jumbotron-events {
+		height: 100%;
+	}
+#slide1 {
 		display: none;
 	}
-#jumbotron-events {
+
+#head-con{
+	margin-top:10px;
+	background-color: rgba(0, 19, 224, 0.84);
 	height: 100%;
-}
+	}
+
+#landing-events {
+	padding-top: 1em;
+	font-size: 10vw;	
+	}
+#head-gall {
+	font-size: 1vw;
+	}
+#head-con {
+	padding-bottom: 2em;
+	margin-bottom: 5em;
+	}
 }
 
 /*tablet view*/
@@ -494,5 +522,35 @@
 	border-right: 10px;
 	border-color: white;
 	border-style: double;
+	}
+.navbar img {
+		width: 5vw;
+	}
+#home-vid {
+	padding-top: 2em;
+	width: 360px;
+	height: 300px;
+	margin:0 auto;
+	}
+
+#home-vid video {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	width: 360px;
+	height: 300px;
+	}
+#home-wel {
+	margin-left: 60px;
+	font-size: 1.5vw;
+	}
+#home-alert {
+	font-size: 1.5vw;
+	width: 360px;
+	}
+#landing-events {
+	font-size: 5vw;
+	}
+#slide1 {
+	height: 200px;
 	}
 }
