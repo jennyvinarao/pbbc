@@ -182,6 +182,10 @@
 	width: 100vw;
 
 }
+
+#home-wel {
+	margin-top: 5em;
+}
 #home-alert {
 	width: 500px;
 }
@@ -482,6 +486,9 @@
 #head-con {
 	padding-bottom: 2em;
 	margin-bottom: 5em;
+	}
+#home-wel {
+	margin-top: 1em;
 	}
 }
 
