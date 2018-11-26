@@ -263,10 +263,16 @@
 	color: #f2f2f2;
 }
 
-#vision {
+#team{
 	height: 100%;
-	background-color:#f2f2f2; 
-	color: #141414;
+	background-color: rgba(0, 11, 138, 1);
+	color: #f2f2f2;
+}
+
+#profile{
+	height: 100%;
+	background-color: rgba(0, 11, 138, 1);
+	color: #f2f2f2;
 }
 
 #head-gall {
